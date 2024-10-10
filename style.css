@@ -171,6 +171,19 @@ textarea {
     box-shadow: 0 0 4px var(--cor-botao);
 }
 
+/* HOME : Tecnologias */
+
+@media (min-width: 500px) {
+    .news_post {
+        width: 75%;
+    }
+}
+
+.news_post_image img {
+    object-fit: cover;
+    width: 100%;
+}
+
 .message_form_button.limpar:hover {}
 
 /* footer */
@@ -209,4 +222,14 @@ textarea {
     background-image: url(images/logo.png);
     background-position: center;
     background-size: cover;
+    box-shadow: 0 0 10px var(--cor1);
+}
+
+.card:nth-child(3n + 1) {
+    box-shadow: 0 0 10px rgb(230, 0, 255);
+}
+
+a {
+    transition: 0.4s ease;
+    transition-property: color;
 }
