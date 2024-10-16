@@ -219,14 +219,26 @@ textarea {
 
 .card {
     aspect-ratio: 1;
-    background-image: url(images/logo.png);
+    background-color: var(--cor1);
     background-position: center;
     background-size: cover;
-    box-shadow: 0 0 10px var(--cor1);
+    transition: 0.8s ease;
+    transition-property: background-color box-shadow;
 }
 
 .card:nth-child(3n + 1) {
+    background-color: rgb(230, 0, 255);
+}
+
+.card:hover {
+    background-color: white;
+    box-shadow: 0 0 10px var(--cor1);
+}
+
+.card:nth-child(3n + 1):hover {
+    background-color: white;
     box-shadow: 0 0 10px rgb(230, 0, 255);
+    
 }
 
 a {
