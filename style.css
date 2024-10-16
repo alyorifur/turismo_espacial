@@ -21,7 +21,7 @@
 
 
 #index .background_image {
-    background: fixed url(images/bg-espaco3.jpg);
+    background: fixed url(images/bg-espaco3.webp);
     background-size: cover;
     background-position: center;
     scale: 1.5;
