@@ -8,6 +8,11 @@
 
 
 /* HOME : index */
+.why_col {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 #index .home {
     height: 100vh;
