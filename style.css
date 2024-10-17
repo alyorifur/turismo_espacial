@@ -3,6 +3,10 @@
     --cor2: rgb(74, 0, 194);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Header */
 
 
